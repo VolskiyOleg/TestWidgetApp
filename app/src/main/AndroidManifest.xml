@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <receiver android:name=".NewAppWidget">
+        <receiver android:name="com.volskyioleh.testwidgettask.NewAppWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -19,7 +19,7 @@
                 android:resource="@xml/new_app_widget_info" />
         </receiver>
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.volskyioleh.testwidgettask.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

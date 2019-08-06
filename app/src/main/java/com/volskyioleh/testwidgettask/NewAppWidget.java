@@ -1,10 +1,12 @@
-package com.volskyioleh.testwigettask;
+package com.volskyioleh.testwidgettask;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.os.Handler;
 import android.widget.RemoteViews;
+
+import com.volskyioleh.testwigettask.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
